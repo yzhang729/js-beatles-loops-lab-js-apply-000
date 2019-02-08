@@ -21,9 +21,11 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(num){
   var solution = [];
   var i = 15-solution;
+  var index = 0;
   do{
-    solution.push("I love the Beatles!");
-    i++
+    solution[index]="I love the Beatles!";
+    i++;
+    index++;
   }
   while(i<15);
   return solution;
